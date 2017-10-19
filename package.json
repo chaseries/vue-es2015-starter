@@ -8,6 +8,8 @@
     "url": "git://github.com/chaseries/es2015-starter.git"
   },
   "scripts": {
+    "watch": "webpack --watch && node run.js",
+    "serve": "node run.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src"
   },

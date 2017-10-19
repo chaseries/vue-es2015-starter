@@ -1,14 +1,15 @@
 <template>
   <div id="app">
-    {{ msg }}
+    <router-link to="/">Go to home</router-link>
+    <router-link to="/about">Go to about</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: "app",
-  data () {
-    return { msg: "working" }
-  }
+  name: "app"
 }
 </script>
+<style lang="scss">
+</style>
